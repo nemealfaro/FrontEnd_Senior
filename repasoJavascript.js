@@ -60,6 +60,10 @@
     //     console.log(x)
     // })
    // return existe;
+
+   //Forma profesor
+   //existe = ArrayPersonas[i] === nombre ? true : false;
+
 //}
 
 // console.log(ExistePersona("Pedro"))
@@ -80,12 +84,19 @@ function Par_Impar(num) {
 }
 console.log(Par_Impar(3))
 
+//Forma del profesor
+const esPar = (number) => {
+    return number % 2 === 0 ? true : false;
+}
+
+console.log(esPar(2))
+
 //Hacer un metodo que calcule la edad con la fecha de nacimiento y lo imprima
 //Es importante colocar los datos igual que los parametros el orden
  function Calcular_Edad(AnnActual, AnnNac) {
 
      let edad = AnnActual - AnnNac
-     return `La edad es de ${edad} años`
+     return `La edad es de ${edad} años`;
  }
 
 console.log(Calcular_Edad(2024,1998))
@@ -102,3 +113,9 @@ function Calcular_Edad2(AnnActual, AnnNac) {
 }
 
 console.log(Calcular_Edad2(AnnActual,AnnNac))
+
+//Forma del profesor
+const calcularEdadPr = (fechaNac, annActual) => {
+    return annActual - fechaNac;
+}
+console.log(calcularEdadPr(1997,2024))
