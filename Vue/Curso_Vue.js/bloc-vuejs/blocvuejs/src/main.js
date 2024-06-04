@@ -3,7 +3,7 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import "material-icons/iconfont/material-icons.css"
+import "../node_modules/material-icons/iconfont/material-icons.css"
 
 const app = createApp(App)
 
