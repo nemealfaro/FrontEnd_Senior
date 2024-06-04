@@ -15,6 +15,8 @@
         </div>
 
         <div class="col-lg-6">
+          <CardComponent titulo="Hola Mundo"/>
+          <CardComponent titulo="Login"/> <!-- Component que se puede reciclar e indicar que le va a llegar una variable llamada titulo con el valor login (X) -->
           
         </div>
       </div>
@@ -24,5 +26,5 @@
 
 
 <script setup>
-  
+  import CardComponent from '../components/CardComponent.vue';
 </script>
