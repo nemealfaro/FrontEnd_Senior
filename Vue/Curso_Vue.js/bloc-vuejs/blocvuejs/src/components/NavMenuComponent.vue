@@ -6,3 +6,17 @@
   </div>
 </nav>
 </template>
+
+<style scoped>
+/* Inicio del CSS */
+
+.material-icons-round{
+  color: white;
+  font-size: 1.5em;
+  background-color: rgb(52, 72, 94);
+  padding: 0.3em;
+  border-radius: 50%;
+  margin: 0.1em;
+}
+
+</style>
